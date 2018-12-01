@@ -1,0 +1,59 @@
+Zadanie 1
+Utwórz nowy projekt na którym będziemy pracować w dalszej części. Do stworzenia projektu wykorzystaj oficjalne narzędzie create-react-app.
+
+Uwaga: sprawdź czy posiadasz w systemie node w wersji >= 6;
+
+https://facebook.github.io/create-react-app/docs/getting-started
+
+
+Zadanie 2
+Otwórz stworzony projekt w IDE i zapoznaj się z strukturą plików oraz dostępnymi komendami
+npm start
+npm run build
+npm run test
+npm run eject
+
+
+Zadanie 3
+Usuń zawartość pliku src/App.js i stwórz swój pierwszy Functional Component o nazwie App, który zwróci:
+<h1>Hello World!</h1>
+
+Uwaga: staraj się korzystać z arrow function
+
+
+Zadanie 3
+W tym samym pliku stwórz dwa inne komponenty z których jeden wypisze jakiś dowolny tekst, a drugi wyświetli zdjęcie.
+
+Wynikowy kod:
+<h1>Hello World!</h1>
+<p>tutaj miejsce na Twoj tekst</p>
+<img src=„https://picsum.photos/400?random” alt=„obrazek” />
+
+Extra: Spróbuj również wyświetlić obrazek src/logo.svg
+
+Zadanie 4
+Przenieś stworzone komponenty do oddzielnych plików i zaimportuj.
+
+
+Zadanie 5
+Skorzystaj z formattera kodu Prettier i sprawdź jak działa.
+
+CLI: npx prettier --write "src/**/*.js"
+Dla vscode: https://github.com/prettier/prettier-vscode
+
+Zadanie 6
+Klient dostarczył szablon strony w pliku szablon.html i chciałby mieć taka aplikacje napisana w React. Twoim zadaniem jest podział dostarczonego kodu na komponenty.
+
+
+Zadanie 7
+Dla komponentu który wyświetlał zdjęcie użyj Props tak aby adres url do grafiki pobierał z parametru.
+
+
+Zadanie 8
+Twoim zadaniem jest stworzenie mini bloga. Klient chce aby po wejściu na stronę widoczne były 3 wpisy jeden pod drugim. Każdy wpis powinien zawierać tytuł, zdjęcie oraz tekst.
+Nie powielaj kodu i staraj sie tworzyć reużywalne komponenty.
+
+Zadanie 8
+Zainstaluj i uruchom React Dev Tools. Wykorzystaj poprzednie zadanie żeby sprawdzić jak działa ta wtyczka.
+
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi

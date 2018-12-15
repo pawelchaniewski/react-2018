@@ -27,7 +27,7 @@ W tym samym pliku stwórz dwa inne komponenty z których jeden wypisze jakiś do
 Wynikowy kod:
 <h1>Hello World!</h1>
 <p>tutaj miejsce na Twoj tekst</p>
-<img src=„https://picsum.photos/400?random” alt=„obrazek” />
+<img src="https://picsum.photos/400?random" alt="obrazek" />
 
 Extra: Spróbuj również wyświetlić obrazek src/logo.svg
 
@@ -46,7 +46,7 @@ Klient dostarczył szablon strony w pliku szablon.html i chciałby mieć taka ap
 
 
 Zadanie 7
-Dla komponentu który wyświetlał zdjęcie użyj Props tak aby adres url do grafiki pobierał z parametru.
+Spraw aby komponenty z poprzedniego zadania były bardziej reużywalne. Skorzystaj z Props.
 
 
 Zadanie 8

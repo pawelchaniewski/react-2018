@@ -3,14 +3,25 @@ import React from "react";
 import Title from "../Title/Title";
 import Image from "../Image/Image";
 import Text from "../Text/Text";
+import Rating from "../Rating/Rating";
 
-const Post = ({ title, image, text }) => {
+import { LanguageConsumer } from "../LanguageContext/LanguageContext";
+
+const handleClick = i => alert(`click ${i}`);
+
+const Post = ({ title, image, text, rating }) => {
   return (
-    <div>
-      <Title title={title} />
-      <Image url={image} />
-      <Text text={text} />
-    </div>
+    <LanguageConsumer>
+      {language => (
+        <div>
+          <span>{language}</span>
+          <Title title={title[language]} />
+          <Rating rating={rating} onClick={handleClick} />
+          <Image url={image} />
+          <Text text={text[language]} />
+        </div>
+      )}
+    </LanguageConsumer>
   );
 };
 

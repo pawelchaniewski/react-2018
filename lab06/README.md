@@ -13,7 +13,7 @@ Zastosuj w poprzednim zadaniu wszystkie poznane Lifecycle Hooks i zaobserwuj kie
 ## Zadanie 4
 Spraw aby komponent z zadania 3 reagował tylko w przypadku parzystej liczby kliknięć. Wykorzystaj `shouldComponentUpdate`
 
-## Zadanie 5 TODO
+## Zadanie 5
 W komponencie rodzica dodaj 2 przyciski ktore ukryja i pokaza twoj Component z zadania 4: wroc do zadania 2 i zobacz co sie zmienilo.
 Pamiętaj o zbindowaniu funkcji obslugujacej klikniecie.
 

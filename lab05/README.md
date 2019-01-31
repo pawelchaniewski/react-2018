@@ -33,6 +33,3 @@ Utworz LanguageContext w którym przekażesz kod języka używanego w aplikacji 
 ## Zadanie 8
 Wykorzystaj dane z LanguageContext aby wyświetlić liste filmów w innym języku.
 Skorzystaj z pliku movies2.json
-
-## Zadanie 9
-Zaimplementuj HOC (High Order Component) którego celem będzie wstrzyknięcie do komponentu informacji o używanym w aplikacji języku. Informacje o języku wyciągnij z LanguageContextu

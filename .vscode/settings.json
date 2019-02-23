@@ -1,0 +1,10 @@
+{
+    "editor.tabSize": 2,
+    // Set the default
+    "editor.formatOnSave": false,
+    "prettier.tabWidth": 2,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+}

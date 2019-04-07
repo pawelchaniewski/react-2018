@@ -43,4 +43,4 @@ Zadaniem jednego z nich będzie wyświetlenie informacji o wybranym języku, a d
 Wykorzystując poznane hooki stwórz prostą liste TODO. Tytuł strony powinien zawierać informacje o liczbie dodanych elementów.
 
 ## Praca domowa
-Zrealizuj Zadanie 5 przy użyciu hooków. Na potrzeby tego zadania stwórz własny hook `useRandomUserApi`, który będzie pobierał dane z API.
+Zrealizuj Zadanie 5 przy użyciu hooków.

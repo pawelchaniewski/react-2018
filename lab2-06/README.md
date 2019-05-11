@@ -19,4 +19,3 @@ Wykorzystując reduxa stworz prosta aplikacje todo list. Aplikacja powinna ofero
 
 ## Zadanie 4
 Zadanie 1 zrealizuj wykorzystujac reduxa. Dane o ksiazkach i autorach trzymaj w storze.
-.

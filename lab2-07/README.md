@@ -11,7 +11,10 @@ Do Zadania 1 dodaj middleware logujący akcje i zaobserwuj jego dzialania
 Do projektu z Zadania 1 dodaj https://github.com/reduxjs/redux-devtools 
 
 ## Zadanie 4
-Wykrozystujac reduxa stworz aplikacje, ktora bedzie przechowywala liste Twoich ulubionych ksiazek.
+Wykorzystujac reduxa stworz aplikacje, ktora bedzie przechowywala liste Twoich ulubionych ksiazek.
 Aplikacja powinna oferowac mozliwosc dodawania, usuwania książek oraz mozliwosc oznaczania juz przeczytanych ksiazek.
 
 Do generowania identyfikatorow uzyj `node-uuid` https://github.com/kelektiv/node-uuid
+
+## Zadanie 5
+

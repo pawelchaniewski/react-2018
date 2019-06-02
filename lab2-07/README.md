@@ -16,5 +16,3 @@ Aplikacja powinna oferowac mozliwosc dodawania, usuwania książek oraz mozliwos
 
 Do generowania identyfikatorow uzyj `node-uuid` https://github.com/kelektiv/node-uuid
 
-## Zadanie 5
-
